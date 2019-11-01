@@ -1,7 +1,20 @@
 .cards-wrapper {
     display: grid;
+    margin: 0 auto;
+    width: 70%;
+    justify-items: center;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap:25px;
-    text-align: center;
-    
+    grid-gap: 20px;
+    grid-template-rows: auto auto auto;
+    ;
+}
+
+@media screen and (max-width:550px){
+   
+   
+ 
+    .cards-wrapper{
+        width: 100%
+    }
+
 }

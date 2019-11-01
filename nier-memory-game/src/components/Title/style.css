@@ -1,0 +1,49 @@
+.logo-score-wrapper{
+
+    width: 70%;
+    margin: 35px auto;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.directions-wrapper{
+    text-align: center;
+    margin-top:-70px;
+ 
+}
+
+
+.nier-logo {
+    max-width: 100%;
+   
+}
+
+@media screen and (max-width:1050px){
+   
+   .logo-score-wrapper {
+       grid-template-columns: 1fr;
+       margin: -10px auto;
+
+    }
+    .directions-wrapper {
+        margin-top: 0px;
+    }
+
+    .logo-wrapper{
+        margin-bottom:-70px
+    }
+
+}
+
+@media screen and (max-width:550px){
+   
+   
+ 
+     .logo-wrapper{
+         margin-bottom:-30px
+     }
+ 
+ }
