@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Amusement Park",
+        "image": "https://i.pinimg.com/originals/91/de/2d/91de2ddd4f0d1c399e1314efdbafe30b.jpg",
+        "count": 0
+        
+
+    },
+    {
+        "id": 2,
+        "name": "Forest Kingdom",
+        "image": "http://www.loadthegame.com/wp-content/uploads/2016/11/Nier.jpg",
+        "count": 0
+        
+
+    },
+    {
+        "id": 3,
+        "name": "Copied City",
+        "image": "https://i.redd.it/xypytzexv9e31.png",
+        "count": 0
+        
+
+    }
+
+]
