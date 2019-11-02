@@ -67,7 +67,7 @@ constructor(props){
     clickCount = id => {
         
 
-     
+     console.log(id)
         this.state.cards.find(card=>{
             
             if(card.id === id){
@@ -77,7 +77,7 @@ constructor(props){
                     this.setState({message: ''})
                     this.setState({score : this.state.score + 1})
                     card.count = card.count + 1
-                    this.setState({ cards: this.shuffleCards(this.state.cards) })
+                    this.setState({ cards: this.shuffleCards(this.state.cards)})
                     this.victoryCheck()
                     return true;
                 }
@@ -105,6 +105,7 @@ constructor(props){
     
                
                 <CardsWrapper>
+
                     {cards.map(card => (
                          <Animated animationIn="fadeInRight" animationOut="fadeOut" isVisible={true}>
                         <Card

@@ -1,11 +1,15 @@
 import React from 'react'
 import './style.css'
+import Logo from '../../../src/images/nierlogo.png'
 
 let Title = ({highscore, score, message}) => (
     <div className="title-wrapper">
         <div className="logo-score-wrapper">
             <div className="logo-wrapper">
-                <img className="nier-logo" alt="img" src="https://i.dlpng.com/static/png/5577261-nier-automata-logo-png-abeoncliparts-cliparts-vectors-for-nier-automata-logo-transparent-2120_900_preview.png"></img>
+                <img className="nier-logo" alt="img" 
+                src={Logo}>
+
+                </img>
             </div>
             <div className="score-wrapper">
                 <h2>Current Score : {score}</h2>
