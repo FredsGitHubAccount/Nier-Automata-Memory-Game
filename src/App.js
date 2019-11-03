@@ -67,7 +67,6 @@ constructor(props){
     clickCount = id => {
         
 
-     console.log(id)
         this.state.cards.find(card=>{
             
             if(card.id === id){
@@ -103,11 +102,11 @@ constructor(props){
                 <Title score={score} highscore={highscore} message={message} />
                 </Animated>
     
-               
+                <Animated animationIn="fadeInRight" animationOut="fadeOut" isVisible={true}>
+
                 <CardsWrapper>
 
                     {cards.map(card => (
-                         <Animated animationIn="fadeInRight" animationOut="fadeOut" isVisible={true}>
                         <Card
                             clickCount={this.clickCount}
                             id={card.id}
@@ -115,10 +114,11 @@ constructor(props){
                             name={card.name}
                             image={card.image}
                         />
-                        </Animated>
                     ))}
                     
                 </CardsWrapper>
+                </Animated>
+
                 
             </Wrapper>
             )
