@@ -3,13 +3,12 @@ A memory game based on the decorated Square Enix franchise
 
 ## Table of Contents 
 
-## Live Link
-https://protected-sea-35353.herokuapp.com/
-
 ## Objective 
 
 I wanted to create a challenging memory game using React to manage the state of my application and utilize JavaScript's built-in methods.
 
+## Live Link
+https://protected-sea-35353.herokuapp.com/
 
 ## Screenshot
 ![Screenshot](/ss/memory.png)
