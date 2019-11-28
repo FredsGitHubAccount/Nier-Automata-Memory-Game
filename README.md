@@ -10,6 +10,10 @@ https://protected-sea-35353.herokuapp.com/
 
 I wanted to create a challenging memory game using React to manage the state of my application and utilize JavaScript's built-in methods.
 
+
+## Screenshot
+![Screenshot](/ss/memory.png)
+
 ## Code Structure
 
 Utilizing React, I was able to generate components that together, build the application.  My components help generate modular code that allows me to pinpoint and modify a specific feature.  The src folder contains all of my components.  The App.js file contains the logic for the game to function. The cards.json file is the data for each card. The index.js file is what is rendered into the root div to display the application.
