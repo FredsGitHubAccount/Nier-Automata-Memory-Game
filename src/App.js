@@ -11,7 +11,7 @@ import { MessageContext, CardsContext, ScoreContext, HighscoreContext } from './
 const App = () => {
 
     let [highscore, setHighscore] = useContext(HighscoreContext)
-    let [message, setMessage] = useContext(MessageContext)
+    let [, setMessage] = useContext(MessageContext)
     let [score, setScore] = useContext(ScoreContext)
     let [cards, setCards] = useContext(CardsContext)
 
@@ -21,7 +21,7 @@ const App = () => {
         setCards(shuffleCards(cardsData))
 
 
-    }, [])
+    })
 
     let shuffleCards = data => {
 
@@ -89,12 +89,11 @@ const App = () => {
 
             <CardsWrapper>
 
-                {cards.map(({ id, name, image }) => (
+                {cards.map(({ id, image }) => (
                     <Card
                         clickCount={clickCount}
                         id={id}
                         key={id}
-                        name={name}
                         image={image}
                     />
                 ))}

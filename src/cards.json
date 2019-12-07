@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "1",
+      
         "image": "https://i.pinimg.com/originals/91/de/2d/91de2ddd4f0d1c399e1314efdbafe30b.jpg",
         "count": 0
         
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "name": "2",
+    
         "image": "http://www.loadthegame.com/wp-content/uploads/2016/11/Nier.jpg",
         "count": 0
         
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "name": "3",
+
         "image": "https://i.redd.it/xypytzexv9e31.png",
         "count": 0
         
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "name": "4",
+
         "image": "https://i.pinimg.com/originals/77/5b/97/775b9771edea96f8163d00ac12dc8af2.jpg",
         "count": 0
         
@@ -33,7 +33,6 @@
     },
     {
         "id": 5,
-        "name": "5",
         "image": "https://vignette.wikia.nocookie.net/nier/images/c/c4/Tower.png/revision/latest?cb=20180223102038",
         "count": 0
         
@@ -41,7 +40,6 @@
     },
     {
         "id": 6,
-        "name": "6",
         "image": "https://3.bp.blogspot.com/-V0cAfKkd7lo/WKF2AD-7w4I/AAAAAAAAFeI/EI93f4nj3b8_dITvTlbF-pHmoy9jg-1wgCEw/s1600/Nier_Concept_Art_ForestCastle_1x_F_03_1486123623.02.2017.jpg",
         "count": 0
         
@@ -50,7 +48,6 @@
 
     {
         "id": 7,
-        "name": "7",
         "image": "https://i.pinimg.com/originals/14/57/e3/1457e364716f1847eae2574dc2204ff4.jpg",
         "count": 0
         
@@ -58,7 +55,6 @@
     },
     {
         "id": 8,
-        "name": "8",
         "image": "https://rpgvaliant.com/wp-content/uploads/2016/07/NieR-Automata-Development-Environment-Concept-Art-2.jpg",
         "count": 0
         
@@ -66,7 +62,6 @@
     },
     {
         "id": 9,
-        "name": "9",
         "image": "https://lparchive.org/NieR-Automata/Update%2033/79-P2bhBIT.jpg",
         "count": 0
     }

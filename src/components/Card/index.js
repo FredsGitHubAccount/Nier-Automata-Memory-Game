@@ -2,12 +2,14 @@ import React from 'react'
 import './style.css'
 
 
-const Card = props => (
-    <div className="card-wrapper" onClick={() => props.clickCount(props.id)}>
-        <img src={props.image} alt={props.id}></img>
+const Card = ({clickCount,id,image}) => {
+ 
+    return(<div className="card-wrapper" onClick={() => clickCount(id)}>
+        <img src={image} alt={id}></img>
 
     </div>
-)
+    )
+}
 
 
 // class Card extends React.Component{
