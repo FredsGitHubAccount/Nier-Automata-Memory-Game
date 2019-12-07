@@ -15,13 +15,13 @@ https://protected-sea-35353.herokuapp.com/
 
 ## Code Structure
 
-Utilizing React, I was able to generate components that together, build the application.  My components help generate modular code that allows me to pinpoint and modify a specific feature.  The src folder contains all of my components.  The App.js file contains the logic for the game to function. The cards.json file is the data for each card. The index.js file is what is rendered into the root div to display the application.
+Utilizing React, I was able to generate components that together, build the application.  My components help generate modular code that allows me to pinpoint and modify a specific feature.  The src folder contains all of my components.  The App.js file contains the logic for the game to function. The cards.json file is the data for each card. The index.js file is what is rendered into the root div to display the application.  I have recently included a Hooks.js in the root, which initializes my global state.  Using hooks, it allows for much cleaner code since I no longer need to pass down props through components continuously.
 
 ### Technologies
 Front-End
 - [ ] HTML5
 - [ ] CSS3/Grid
-- [ ] React.js
+- [ ] React.js/Hooks
 
 Back-End
 - [ ] Node.js
