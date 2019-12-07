@@ -1,9 +1,17 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import './style.css'
 import Logo from '../../../src/images/nierlogo.png'
+import {MessageContext,ScoreContext,HighscoreContext} from '../../Hooks'
 
-let Title = ({highscore, score, message}) => (
-    <div className="title-wrapper">
+
+let Title = () => {
+
+    let [score] = useContext(ScoreContext)
+    let [message] = useContext(MessageContext)
+    let [highscore] = useContext(HighscoreContext)
+    
+
+    return(<div className="title-wrapper">
         <div className="logo-score-wrapper">
             <div className="logo-wrapper">
                 <img className="nier-logo" alt="img" 
@@ -25,7 +33,9 @@ let Title = ({highscore, score, message}) => (
 
 
     </div>
-)
+    )
+
+}
 
 
 export default Title
