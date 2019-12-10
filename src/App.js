@@ -21,7 +21,7 @@ const App = () => {
         setCards(shuffleCards(cardsData))
 
 
-    })
+    },[])
 
     let shuffleCards = data => {
 
