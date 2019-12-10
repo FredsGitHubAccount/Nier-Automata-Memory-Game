@@ -5,7 +5,7 @@ A memory game based on the decorated Square Enix franchise
 
 ## Objective 
 
-I wanted to create a challenging memory game using React to manage the state of my application and utilize JavaScript's built-in methods.  I also built this application using hooks to pass down the state of my application when necessary to generate state-ful components.
+I wanted to create a challenging memory game using React to manage the state of my application and utilize JavaScript's built-in methods.  I also built this application using hooks to pass down the state of my application when necessary to generate stateful components.
 
 ## Live Link
 https://protected-sea-35353.herokuapp.com/
